@@ -1,35 +1,14 @@
 {
-  "name": "MoveNet-test",
-  "browserslist": [
-    "defaults"
-  ],
-  "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
+  "name": "movenet-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:meninoebom/movenet-test.git",
+  "author": "Brandon Brown <brandon.brown@ymail.com>",
+  "license": "MIT",
   "scripts": {
-    "build": "parcel build index.html",
-    "dev": "parcel index.html --open",
-    "start": "yarn run build && yarn run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "fullstack-dev": "concurrently \"cd server && yarn run start-dev\" \"cd client && yarn run start\""
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "parcel": "^2.2.0",
-    "parcel-bundler": "^1.12.4"
-  },
-  "dependencies": {
-    "@mediapipe/pose": "~0.4.0",
-    "@tensorflow-models/pose-detection": "^0.0.6",
-    "@tensorflow/tfjs-backend-wasm": "^3.13.0",
-    "@tensorflow/tfjs-backend-webgl": "^3.13.0",
-    "@tensorflow/tfjs-converter": "^3.13.0",
-    "@tensorflow/tfjs-core": "^3.13.0",
-    "acorn": "^8.7.0",
-    "bufferutil": "^4.0.6",
-    "p5": "^1.4.0",
-    "utf-8-validate": "^5.0.8"
+    "concurrently": "^7.0.0"
   }
 }
