@@ -35,7 +35,7 @@ const sketch = new p5js((p5) => {
 
     video = p5.createCapture(p5.VIDEO, getPosesRecursively);
     videoAspect = video.width / video.height;
-    // video.hide();
+    video.hide();
     console.log("setup complete");
   };
 
