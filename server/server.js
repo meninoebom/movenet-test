@@ -69,7 +69,7 @@ const sendPoseToWekinator = function (rawPoseData) {
     { type: "float", value: flattenedPoseObject.right_ankle.x },
   ];
   console.log("right wrist X = ", rawPoseData.keypoints[10].x);
-  console.log("nose wrist Y = ", rawPoseData.keypoints[10].y);
+  console.log("nose Y = ", rawPoseData.keypoints[10].y);
   console.log("");
 
   // Takes a JavaScript representation of an OSC packet and returns a Node.js buffer
