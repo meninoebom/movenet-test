@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "dgram": "^1.0.1",
-    "eiows": "^3.7.3",
+    "eiows": "^4",
     "express": "^4.17.2",
     "osc-min": "^1.1.2",
     "socket.io": "^4.4.1"
