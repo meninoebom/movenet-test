@@ -17,6 +17,7 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
+    "buffer": "^6.0.3",
     "parcel": "^2.2.0",
     "parcel-bundler": "^1.12.4"
   },
