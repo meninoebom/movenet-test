@@ -6,3 +6,6 @@ dist
 .cache
 .DS_Store
 *.code-workspace
+
+# Parcel cache files
+client/.parcel-cache/
